@@ -5,16 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
   body{
-    margin:0;
-    padding-top:50px;
-    
+    margin: 0;
+    padding-top: 80px;
   }
 
-  img{
-    width:100%;
-    height:auto;
-    display:block;
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
   }
+
+  @media (max-width: 768px) {
+    body {
+      padding-top: 60px;
+    }
+  }
+
 </style>
 
 <img src="images/landing1.png" alt="Landing Image">
@@ -29,7 +35,7 @@
   <!-- Navbar -->
   <nav>
     <div class="container nav-inner">
-      <a href="#" class="logo">Career<span>Journey</span></a>
+      <a href="#" class="logo">CareerJourney</a>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#stats">Impact</a></li>

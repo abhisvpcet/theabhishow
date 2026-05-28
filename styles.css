@@ -378,13 +378,173 @@ footer {
 
 /* Responsive */
 @media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  /* Hero Section */
+  #hero {
+    height: auto;
+    padding: 100px 0 50px;
+    min-height: 80vh;
+  }
+
   .hero-content h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    line-height: 1.2;
+    word-break: break-word;
   }
-  .about-grid {
-    grid-template-columns: 1fr;
+
+  .hero-content p {
+    font-size: 1rem;
+    max-width: 100%;
   }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  /* Formats */
+  .formats {
+    gap: 10px;
+  }
+
+  .format-pill {
+    padding: 8px 15px;
+    font-size: 0.85rem;
+  }
+
+  /* Navbar */
+  nav {
+    height: auto;
+  }
+
+  .nav-inner {
+    height: 60px;
+    padding: 0 15px;
+  }
+
+  .logo {
+    font-size: 1.2rem;
+  }
+
   .nav-links {
     display: none;
+  }
+
+  /* About Grid */
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+  }
+
+  .mission-box {
+    padding: 20px;
+  }
+
+  .mission-box h4 {
+    font-size: 1rem;
+  }
+
+  /* Stats Grid */
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .stat-card {
+    padding: 25px 15px;
+  }
+
+  .stat-num {
+    font-size: 1.8rem;
+  }
+
+  .stat-label {
+    font-size: 0.9rem;
+  }
+
+  /* Guests Grid */
+  .guests-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .guest-img {
+    height: 250px;
+  }
+
+  .guest-info h3 {
+    font-size: 1.2rem;
+  }
+
+  /* Collab Grid */
+  .collab-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Section */
+  .section {
+    padding: 50px 0;
+  }
+
+  /* Footer */
+  footer {
+    padding: 40px 0 20px;
+  }
+
+  .social-links {
+    gap: 10px;
+  }
+
+  .social-links a {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+  }
+
+  .format-pill {
+    padding: 6px 12px;
+    font-size: 0.75rem;
+  }
+
+  .section-title {
+    font-size: 1.4rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .stat-num {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    padding: 12px 20px;
+    font-size: 0.95rem;
   }
 }
